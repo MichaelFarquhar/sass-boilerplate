@@ -2,7 +2,7 @@
 
 Boilerplate for Sass (.scss) styling structure that I use for React projects.
 
-#### Requirements
+### Requirements
 
 -   Download and place wherever, preferable into a _styles_ directory. Import the main.scss file to App.js.
 
@@ -18,7 +18,7 @@ npm install node-sass@^4.14.1
 
 ---
 
-#### Folder Structure
+### Folder Structure
 
 -   **\_base** - Contains default global settings. Includes [normalize.scss](https://github.com/necolas/normalize.css/blob/master/normalize.css)
     -   \_general.scss
