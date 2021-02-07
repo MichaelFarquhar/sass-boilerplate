@@ -1,18 +1,16 @@
 # Sass Boilerplate
 
----
-
 Boilerplate for Sass (.scss) styling structure that I use for React projects.
 
 #### Requirements
 
-> Import the main.scss file to App.js. This file connects all other .scss files.
+-   Download and place wherever, preferable into a _styles_ directory. Import the main.scss file to App.js.
 
 ```javascript
 import './styles/main.scss';
 ```
 
-> React projects made in create-react-app should use [node-sass](https://www.npmjs.com/package/node-sass).
+-   React projects made in create-react-app can use [node-sass](https://www.npmjs.com/package/node-sass). This will compile the sass for us.
 
 ```bash
 npm install node-sass@^4.14.1
@@ -22,12 +20,13 @@ npm install node-sass@^4.14.1
 
 #### Folder Structure
 
--   **\_base** - Contains default global settings. Includes [normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css)
+-   **\_base** - Contains default global settings. Includes [normalize.scss](https://github.com/necolas/normalize.css/blob/master/normalize.css)
     -   \_general.scss
     -   \_normalize.scss
 -   **\_utils** - Variables and mixins that are used globally.
     -   \_fonts.scss
     -   \_vars.scss
+    -   \_breakpoints.scss
     -   \_mixins.scss
 -   **\_pages** - Each page will have a seperate stylesheet with specific styles.
     -   \_page.scss
